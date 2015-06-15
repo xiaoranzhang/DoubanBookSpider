@@ -49,7 +49,7 @@ sys.setdefaultencoding('utf-8')
 book_list=[]     #建立一个小说的空数组
 headers = {
 	       "DNT":"1",
-	       "Host":"movie.douban.com",
+	       "Host":"book.douban.com",
 	       "User-Agent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.114 Safari/537.36"
 }
 
