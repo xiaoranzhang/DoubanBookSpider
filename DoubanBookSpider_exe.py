@@ -1,6 +1,7 @@
+# !/usr/bin/env python
+# _*_ coding:utf-8 _*_
 
 # “豆瓣读书”小说类爬虫
-# _*_ coding:utf-8 _*_
 
 import sys
 import urllib
