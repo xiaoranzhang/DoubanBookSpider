@@ -30,7 +30,7 @@ def get_url_index(url_index):
 		outcome=response.read()
 		decode_outcome_utf8=outcome.decode('utf=8','ignore')
 		encode_outcome_gbk=decode_outcome_utf8.encode('gbk','ignore')
-		return encode_outcome_gbk
+	return encode_outcome_gbk
 	
 # 获得网页url信息：从第二页开始
 def get_url(url_2nd):
@@ -41,7 +41,7 @@ def get_url(url_2nd):
 		outcome=response.read()
 		decode_outcome_utf8=outcome.decode('utf=8','ignore')
 		encode_outcome_gbk=decode_outcome_utf8.encode('gbk','ignore')
-		return encode_outcome_gbk
+	return encode_outcome_gbk
 
 
 # 程序入口
